@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmed Farahat: computer engineer, AI and automation</title>
+  <meta name="description" content="Ahmed Farahat is a computer engineer, product manager and AI engineer in Dubai. He builds AI products and automates manual work, from supply-chain reports to a voice assistant for shoppers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="phone.css?v=4">
+  <script>document.documentElement.className = "js";</script>
+</head>
+<body>
+  <a class="skip" href="#projects">Skip to the projects</a>
+  <div class="bg" aria-hidden="true"><i></i><i></i><i></i><canvas id="field"></canvas></div>
+  <div class="progress" aria-hidden="true"><span id="progress"></span></div>
+
+  <header class="top">
+    <a class="top-name" href="#home">Ahmed Farahat</a>
+    <nav aria-label="Sections">
+      <a href="#journey">Journey</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="pill" href="assets/Ahmed-Farahat-CV.pdf" download>CV</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- ── Hero: the person first ───────────────────────────────────────── -->
+    <section class="hero">
+      <div class="win">
+        <div class="win-bar"><span class="win-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">Hello</span><span class="win-meta">Dubai, UAE</span></div>
+        <div class="win-body hero-centre">
+          <figure class="hero-photo">
+            <img src="assets/photos/ahmed.jpg?v=2" alt="Ahmed Farahat" width="800" height="800">
+          </figure>
+          <p class="status"><i aria-hidden="true"></i>Open to AI and product roles</p>
+          <h1>Ahmed Farahat</h1>
+          <p class="who">Computer engineer. I build AI products and automate the work around them.</p>
+          <p class="lede">I studied computer engineering at the American University of Sharjah. Since my first internship I've been doing the same thing in different places: finding work that people do by hand and building the software that does it for them.</p>
+          <p class="hero-actions">
+            <a class="pill pill-solid" href="mailto:asheriffarahat@gmail.com">Email me</a>
+            <a class="pill" href="https://github.com/ahmedshxrif" rel="noopener">GitHub</a>
+            <a class="pill" href="assets/Ahmed-Farahat-CV.pdf" download>Download CV</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Journey ──────────────────────────────────────────────────────── -->
+    <section class="exp" id="journey">
+      <div class="win reveal">
+        <div class="win-bar"><span class="win-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">My journey</span><span class="win-meta">2022 to now</span></div>
+        <div class="win-body">
+          <h2>My journey</h2>
+          <p class="journey-note">From the first lecture to the job I hold today, in order.</p>
+          <ol class="path-list" id="path-list">
+          <li class="chapter">
+            <p class="path-when">2022 to 2025</p>
+            <h3>American University of Sharjah</h3>
+            <p class="path-role">BSc, Computer Engineering</p>
+            <p>Where it started. Four years of software, operating systems, digital electronics and machine learning, and the place I learned I like building things people use.</p>
+            <ul class="points">
+              <li>Merit scholarship</li>
+              <li>Dean's List</li>
+              <li>Graduated December 2025</li>
+            </ul>
+            <ul class="skills" aria-label="Skills used"><li>C and C++</li><li>Python</li><li>Java</li><li>Web development</li><li>Machine learning</li></ul>
+          </li>
+          <li class="chapter">
+            <p class="path-when">Summer 2023</p>
+            <h3>TriForce Systems, Cairo</h3>
+            <p class="path-role">Digital Transformation Intern</p>
+            <p>My first job, and my first taste of automation: taking a task people did by hand and making software do it.</p>
+            <ul class="points">
+              <li>Built four automation systems for client organisations</li>
+              <li>Helped launch three robotic process automations</li>
+              <li>Wrote the process documents and user manuals</li>
+              <li>Cut manual work by 40% and costs by 20%</li>
+            </ul>
+            <ul class="skills" aria-label="Skills used"><li>Robotic process automation</li><li>UiPath</li><li>Process mapping</li></ul>
+          </li>
+          <li class="chapter">
+            <p class="path-when">2024 to 2025</p>
+            <h3>Research and robotics at AUS</h3>
+            <p class="path-role">Machine learning research assistant, and rover team member</p>
+            <p>Two things outside class. In the Future Thought Leaders program I built a language model that detects signs of mental illness in online posts. On the Rubu' Qarn mission team I helped build a 75 kg autonomous rover.</p>
+            <ul class="points">
+              <li>Language model: data cleaning, features and validation</li>
+              <li>Rover: LiDAR, cameras and robotic arms, 95% navigation and sample accuracy</li>
+              <li>More than 200 hours of robotics and software work</li>
+            </ul>
+            <ul class="skills" aria-label="Skills used"><li>NLP</li><li>Hugging Face</li><li>ROS</li><li>Linux</li></ul>
+          </li>
+          <li class="chapter">
+            <p class="path-when">2025</p>
+            <h3>TRACE, with Dubai Police</h3>
+            <p class="path-role">Senior design project, team leader</p>
+            <p>My graduation project: one forensic tool that analyses crime scene photos, classifies injuries from medical images and estimates time of death. I led a team of four.</p>
+            <ul class="points">
+              <li>Built the backend that serves the models</li>
+              <li>Trained the injury model to over 90% accuracy</li>
+              <li>Added AI-drafted forensic reports</li>
+            </ul>
+            <ul class="skills" aria-label="Skills used"><li>FastAPI</li><li>ResNet</li><li>Transfer learning</li><li>OpenAI API</li><li>Team leadership</li></ul>
+          </li>
+          <li class="chapter">
+            <p class="path-when">Summer 2025</p>
+            <h3>Schneider Electric, Dubai</h3>
+            <p class="path-role">Global Supply Chain Intern, NextGen program</p>
+            <p>Supply chain runs on recurring reports. I automated three of the ones the team rebuilt by hand.</p>
+            <ul class="points">
+              <li>Automated the Back Order Lines, FIFO and Shipment Tracking reports</li>
+              <li>Cut the manual work on them by 70%</li>
+              <li>Worked on a project to reduce delays in outbound logistics</li>
+            </ul>
+            <ul class="skills" aria-label="Skills used"><li>VB.NET</li><li>Excel macros</li><li>Supply chain data</li></ul>
+          </li>
+          <li class="chapter">
+            <p class="path-when">Late 2025</p>
+            <h3>Henkel, Dubai</h3>
+            <p class="path-role">Regional Purchasing Intern</p>
+            <p>A short stint in regional purchasing, where I looked for the manual steps that could be automated.</p>
+            <ul class="points">
+              <li>Supported the regional purchasing team with supplier and order data</li>
+              <li>Automated recurring spreadsheet work</li>
+            </ul>
+            <ul class="skills" aria-label="Skills used"><li>Purchasing data</li><li>Excel automation</li></ul>
+          </li>
+          <li class="chapter path-now">
+            <p class="path-when">Dec 2025 to now</p>
+            <h3>Samsung Gulf Electronics, Dubai</h3>
+            <p class="path-role">Graduate program, two roles at the same time</p>
+            <p>Where everything above came together: product thinking, automation and AI, on one team.</p>
+            <div class="tracks">
+              <div class="track">
+                <h4>Senior Product Management Associate</h4>
+                <ul>
+                  <li>Weekly sell-out, price index and shelf-share analysis across the Gulf</li>
+                  <li>Market-share data for a team of 18</li>
+                  <li>Promo spend modelling with price elasticity</li>
+                  <li>Report automation that cut preparation time by 33%</li>
+                </ul>
+              </div>
+              <div class="track">
+                <h4>Senior AI Engineer Associate</h4>
+                <ul>
+                  <li>An AI sales coaching product, shipped to production</li>
+                  <li>A voice assistant for shoppers</li>
+                  <li>Vision AI that reads promo leaflets</li>
+                  <li>Guardrails, data redaction and spend caps</li>
+                </ul>
+              </div>
+            </div>
+            <ul class="skills" aria-label="Skills used"><li>Python</li><li>TypeScript</li><li>PostgreSQL</li><li>Claude and OpenAI APIs</li><li>Product management</li><li>Power BI</li></ul>
+          </li>
+          </ol>
+
+          <div class="moments">
+            <figure class="moment reveal">
+              <div class="moment-photo">
+                <img src="assets/photos/graduate-program.jpg" alt="The Samsung Gulf graduate program class of 2026 standing with the SGE president" width="1600" height="1199" loading="lazy">
+                <span class="tag" style="left:53.2%; top:67%">SGE president</span>
+                <span class="tag tag-me" style="left:64.6%; top:56%">Me</span>
+              </div>
+              <figcaption>The graduate program, class of 2026.</figcaption>
+            </figure>
+            <figure class="moment reveal">
+              <div class="moment-photo" id="pitch-photo">
+                <img src="assets/photos/pitch-day.jpg" alt="Our team presenting in a meeting room, with a slide of raining money on the screen" width="1600" height="900" loading="lazy">
+                <button class="tag tag-button" id="money" style="left:44%; top:37%" type="button">The money slide</button>
+                <span class="tag" style="left:69.5%; top:36%">Our team, mid-pitch</span>
+              </div>
+              <figcaption>Pitch day, presenting our sales coaching product to the SGE president. Tap the money slide.</figcaption>
+            </figure>
+          </div>
+          <p class="toolkit"><strong>I work in</strong> Python, TypeScript, Node.js, SQL and PostgreSQL, with the Claude and OpenAI APIs, retrieval, voice and vision models, FastAPI, Docker, Power BI and Excel. English and Arabic.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Projects: a shelf to pick from ───────────────────────────────── -->
+    <section class="projects" id="projects">
+      <div class="win reveal">
+        <div class="win-bar"><span class="win-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">Projects</span><span class="win-meta">Nine working demos</span></div>
+        <div class="win-body">
+      <h2>Projects</h2>
+      <p class="projects-note">This phone runs small working copies of things I've built, on made-up data. Open an app to try it.</p>
+
+      <div class="lab">
+        <div class="device" id="device">
+          <div class="screen" id="screen">
+            <div class="statusbar" aria-hidden="true"><span id="clock">9:41</span><i></i></div>
+            <div class="home">
+              <p class="home-hello"><strong>Ahmed's work</strong><span>Open an app. Each one is a working copy.</span></p>
+              <ul class="apps">
+              <li><button class="app" type="button" data-app="coach"><span class="app-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6a18 18 0 0 1 16 10"/><path d="M42 24a18 18 0 0 1-10 16"/><path d="M24 42A18 18 0 0 1 8 32"/><path d="M6 24A18 18 0 0 1 16 8"/><circle cx="24" cy="24" r="5" class="fill"/></svg></span>Coach</button></li>
+              <li><button class="app" type="button" data-app="ask"><span class="app-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 10h24a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H20l-8 7v-7H8a4 4 0 0 1-4-4V14a4 4 0 0 1 4-4z"/><path d="M40 14c3 3 3 11 0 14"/></svg></span>Ask</button></li>
+              <li><button class="app" type="button" data-app="scan"><span class="app-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 5h18l8 8v30H12z"/><path d="M30 5v8h8"/><path d="M19 34l10-12"/><circle cx="19.5" cy="23.5" r="2.5"/><circle cx="28.5" cy="32.5" r="2.5"/></svg></span>Scan</button></li>
+              <li><button class="app" type="button" data-app="dash"><span class="app-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 42h36"/><path d="M12 42V28"/><path d="M21 42V16"/><path d="M30 42V22"/><path d="M39 42V8"/></svg></span>Dash</button></li>
+              <li><button class="app" type="button" data-app="optimizer"><span class="app-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 5v37h36"/><path d="M12 36c8-22 18-26 28-12"/><circle cx="27" cy="18" r="3" class="fill"/></svg></span>Optimizer</button></li>
+              <li><button class="app" type="button" data-app="stock"><span class="app-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="13" y="4" width="22" height="40" rx="4"/><path d="M19 25l4 4 7-9"/></svg></span>Stock</button></li>
+              <li><button class="app" type="button" data-app="forensics"><span class="app-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="21" cy="21" r="13"/><path d="M31 31l12 12"/><path d="M15 21h12M21 15v12"/></svg></span>Forensics</button></li>
+              <li><button class="app" type="button" data-app="rover"><span class="app-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 28h32v-9H14z"/><path d="M26 19V9l10-3"/><circle cx="12" cy="36" r="5"/><circle cx="24" cy="36" r="5"/><circle cx="36" cy="36" r="5"/></svg></span>Rover</button></li>
+              <li><button class="app" type="button" data-app="research"><span class="app-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 10h36M6 19h22M6 37h30"/><path d="M6 28h36" class="thick"/></svg></span>Research</button></li>
+              </ul>
+            </div>
+            <div class="appview" id="appview"></div>
+            <button class="homebar" id="homebar" type="button" aria-label="Back to the home screen"></button>
+          </div>
+        </div>
+        <div class="brief" id="brief" aria-live="polite">
+          <div class="brief-empty" id="brief-empty">
+            <h3>Pick up the phone.</h3>
+            <p>Every app on it is a small working copy of something I built, running on made-up data. Open one and its story shows up here, with the real numbers and screenshots.</p>
+            <ul>
+              <li>Record a sales conversation and watch it get scored</li>
+              <li>Ask a talking fridge for the price and see what it does</li>
+              <li>Drive the rover and beat your own score</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- The product sheets. With JavaScript they open from the shelf; without it they simply list here. -->
+      <div class="sheets" id="sheets">
+        <article class="sheet" id="p-saleslens">
+          <header><h3>SalesLens</h3><p class="sheet-kind">AI sales coaching for store promoters</p></header>
+          <p>Promoters record a real customer conversation on their phone. SalesLens transcribes it, removes personal details, scores each stage of the sale and says why the sale was lost. Then it trains the promoter with short daily lessons and AI customers they can practise on by voice, in English and Arabic.</p>
+          <ol class="flow" aria-label="How it works"><li>Record</li><li>Transcribe</li><li>Remove personal data</li><li>Score with Claude</li><li>Coach and train</li></ol>
+          <p class="sheet-stack">Node.js, Claude API, OpenAI speech models, role-based accounts</p>
+          <ul class="tickets" aria-label="Key numbers">
+            <li><strong>Live</strong><span>in production</span></li>
+            <li><strong data-count>429</strong><span>automated tests</span></li>
+            <li><strong data-count>100</strong><span>training lessons</span></li>
+            <li><strong data-count>24</strong><span>AI customers to practise on</span></li>
+          </ul>
+          <div class="shots" data-shots>
+            <button class="shot shot-phone" type="button"><img src="assets/shots/saleslens-2.jpg" alt="A store's score, split into the four stages of a sale" width="780" height="1688" loading="lazy"><span>The store's score</span></button>
+            <button class="shot shot-phone" type="button"><img src="assets/shots/saleslens-1.jpg" alt="The screen where a promoter starts recording a conversation" width="780" height="1688" loading="lazy"><span>Record a conversation</span></button>
+            <button class="shot shot-phone" type="button"><img src="assets/shots/saleslens-3.jpg" alt="Promoters ranked by score, and the reasons sales were lost" width="780" height="1688" loading="lazy"><span>Why sales were lost</span></button>
+            <button class="shot shot-phone" type="button"><img src="assets/shots/saleslens-4.jpg" alt="Competitors that customers mentioned, and the busiest hours" width="780" height="1688" loading="lazy"><span>Competitors and busy hours</span></button>
+          </div>
+        </article>
+
+        <article class="sheet" id="p-promoter">
+          <header><h3>AI Promoter</h3><p class="sheet-kind">A voice assistant shoppers open with a QR code</p></header>
+          <p>A shopper scans the code in store and a talking assistant opens on their own phone. It asks what they need, recommends the right appliance and answers questions out loud. The server checks every reply before it is spoken: no prices, no competitor names, and no claim the spec sheet doesn't back.</p>
+          <ol class="flow" aria-label="How it works"><li>Scan the QR code</li><li>Listen</li><li>Search the product knowledge</li><li>Check the reply</li><li>Speak</li></ol>
+          <p class="sheet-stack">TypeScript, Node.js, PostgreSQL, Claude API with prompt caching, OpenAI speech, WebSockets</p>
+          <ul class="tickets" aria-label="Key numbers">
+            <li><strong>2.5 s</strong><span>to start answering</span></li>
+            <li><strong data-count>43</strong><span>appliance models</span></li>
+            <li><strong data-count>6,300</strong><span>knowledge passages</span></li>
+            <li><strong>Hard cap</strong><span>on yearly AI spend</span></li>
+          </ul>
+          <div class="shots" data-shots>
+            <button class="shot shot-phone" type="button"><img src="assets/shots/promoter-1.jpg" alt="The assistant on a phone, answering a question about a refrigerator" width="780" height="1688" loading="lazy"><span>On the shopper's phone</span></button>
+            <button class="shot shot-wide" type="button"><img src="assets/shots/promoter-2.jpg" alt="The assistant on a larger screen, with the product and its key facts" width="1600" height="900" loading="lazy"><span>On a larger screen</span></button>
+          </div>
+        </article>
+
+        <article class="sheet" id="p-pipeline">
+          <header><h3>Promo intelligence pipeline</h3><p class="sheet-kind">Vision AI that reads retailer leaflets</p></header>
+          <p>Retailers across the Gulf publish promo booklets every week. This pipeline picks them up from email, finds the pages with appliances, reads the price, the old price and the model code from each offer, checks the codes against the model list and emails the team a finished pricing report.</p>
+          <ol class="flow" aria-label="How it works"><li>Booklets arrive by email</li><li>Find appliance pages</li><li>Read each offer</li><li>Check model codes</li><li>Email the report</li></ol>
+          <p class="sheet-stack">Python, vision language models, OCR, scheduled runs on a locked-down work laptop</p>
+          <ul class="tickets" aria-label="Key numbers">
+            <li><strong>160 / 160</strong><span>products found in evaluation</span></li>
+            <li><strong data-count>6</strong><span>Gulf markets</span></li>
+            <li><strong data-count>26</strong><span>weeks checked by hand</span></li>
+            <li><strong>Weekly</strong><span>report by email</span></li>
+          </ul>
+          <div class="shots" data-shots>
+            <button class="shot shot-wide" type="button"><img src="assets/shots/promo-1.jpg" alt="The weekly report email the pipeline sends, with promotions counted by category" width="1180" height="760" loading="lazy"><span>The weekly report email</span></button>
+          </div>
+        </article>
+
+        <article class="sheet" id="p-dashboard">
+          <header><h3>Market intelligence dashboard</h3><p class="sheet-kind">One file for sell-out, price index, shelf share and promos</p></header>
+          <p>I own the market-share data for the home appliances team: I map the raw sell-out data every week and it becomes the single source for everyone's reporting. The dashboard puts that next to price index, shelf share and promo pricing in one self-contained file, because company data rules don't allow a hosted app.</p>
+          <ol class="flow" aria-label="How it works"><li>Map raw sell-out</li><li>Join price index, shelf share, promos</li><li>Build one offline file</li><li>Share weekly</li></ol>
+          <p class="sheet-stack">Python, self-contained HTML and JavaScript, Excel, Power BI</p>
+          <ul class="tickets" aria-label="Key numbers">
+            <li><strong data-count>8</strong><span>weekly Excel reports replaced</span></li>
+            <li><strong data-count>50,000</strong><span>rows mapped each week</span></li>
+            <li><strong data-count>6</strong><span>markets, 10 retailers</span></li>
+            <li><strong data-count>18</strong><span>people use it</span></li>
+          </ul>
+          <div class="shots" data-shots>
+            <button class="shot shot-wide" type="button"><img src="assets/shots/market-1.jpg" alt="The dashboard's market share view, built from test data" width="1440" height="900" loading="lazy"><span>Market share (test data)</span></button>
+            <button class="shot shot-wide" type="button"><img src="assets/shots/market-2.jpg" alt="The dashboard's price comparison view, built from test data" width="1440" height="900" loading="lazy"><span>Price comparison (test data)</span></button>
+            <button class="shot shot-wide" type="button"><img src="assets/shots/market-3.jpg" alt="The dashboard's shelf share view, built from test data" width="1440" height="900" loading="lazy"><span>Shelf share (test data)</span></button>
+          </div>
+        </article>
+
+        <article class="sheet" id="p-operators">
+          <header><h3>Store operators' app</h3><p class="sheet-kind">Incentives and stock, for people on the shop floor</p></header>
+          <p>A tool for operators in partner stores. They use it to track the incentives they've earned and to report when a product is running low, so the team hears about it before the shelf is empty.</p>
+          <ol class="flow" aria-label="How it works"><li>Operator opens the app</li><li>Checks incentives</li><li>Reports low stock</li><li>Team follows up</li></ol>
+        </article>
+
+        <article class="sheet" id="p-elasticity">
+          <header><h3>Promo optimization tool</h3><p class="sheet-kind">Where does promo money work hardest?</p></header>
+          <p>A Python model built on price elasticity: how much more of a product sells when its price drops. It simulates different ways of splitting the promo budget and shows which products repay a discount and which don't.</p>
+          <ol class="flow" aria-label="How it works"><li>Sales history</li><li>Estimate elasticity per product</li><li>Simulate the budget split</li><li>Recommend where to spend</li></ol>
+          <ul class="tickets" aria-label="Key numbers">
+            <li><strong>8 to 12%</strong><span>potential efficiency gain</span></li>
+            <li><strong>Python</strong><span>model and simulation</span></li>
+          </ul>
+        </article>
+
+        <article class="sheet" id="p-trace">
+          <header><h3>TRACE</h3><p class="sheet-kind">A forensic AI tool, built with Dubai Police as the end user</p></header>
+          <p>My senior design project. I led a team of four building one tool for three forensic jobs: analysing crime scene photos, classifying injuries from medical images and estimating time of death. I built the backend and trained the injury model.</p>
+          <ol class="flow" aria-label="How it works"><li>Upload evidence</li><li>Run the models</li><li>Review the findings</li><li>Draft the report</li></ol>
+          <p class="sheet-stack">Python, FastAPI, ResNet with transfer learning, OpenAI API</p>
+          <ul class="tickets" aria-label="Key numbers">
+            <li><strong>90%+</strong><span>injury classification accuracy</span></li>
+            <li><strong data-count>4</strong><span>people, and I led the team</span></li>
+            <li><strong data-count>3</strong><span>forensic tools in one</span></li>
+            <li><strong>2025</strong><span>senior design project</span></li>
+          </ul>
+          <div class="shots" data-shots>
+            <button class="shot shot-wide" type="button"><img src="assets/shots/forensic-1.jpg" alt="The TRACE dashboard with recent cases" width="1440" height="900" loading="lazy"><span>Case dashboard</span></button>
+            <button class="shot shot-wide" type="button"><img src="assets/shots/forensic-3.jpg" alt="The screen for uploading medical images to classify an injury" width="1440" height="900" loading="lazy"><span>Injury classification</span></button>
+            <button class="shot shot-wide" type="button"><img src="assets/shots/forensic-2.jpg" alt="The screen for uploading crime scene images" width="1440" height="900" loading="lazy"><span>Crime scene analysis</span></button>
+            <button class="shot shot-wide" type="button"><img src="assets/shots/forensic-4.jpg" alt="The screen for estimating time of death" width="1440" height="900" loading="lazy"><span>Time of death estimation</span></button>
+          </div>
+        </article>
+
+        <article class="sheet" id="p-rover">
+          <header><h3>Autonomous space rover</h3><p class="sheet-kind">Built with the AUS team for the Rubu' Qarn mission program</p></header>
+          <p>A 75 kg rover that finds its own way and collects samples. It carries LiDAR, cameras and robotic arms, and runs on ROS. I spent more than 200 hours on its robotics and software.</p>
+          <ul class="tickets" aria-label="Key numbers">
+            <li><strong>75 kg</strong><span>rover</span></li>
+            <li><strong>95%</strong><span>navigation and sample accuracy</span></li>
+            <li><strong>200+</strong><span>hours of build time</span></li>
+          </ul>
+        </article>
+
+        <article class="sheet" id="p-nlp">
+          <header><h3>Mental-health signals in text</h3><p class="sheet-kind">Machine learning research at AUS</p></header>
+          <p>As a research assistant in the Future Thought Leaders program, I built a language model that reads online posts and detects signs of mental illness, covering the data cleaning, the features and the validation.</p>
+          <p class="sheet-stack">Python, NLTK, spaCy, Hugging Face</p>
+          <ul class="tickets" aria-label="Key numbers">
+            <li><strong>90%+</strong><span>accuracy target</span></li>
+            <li><strong>NLP</strong><span>classification model</span></li>
+          </ul>
+        </article>
+      </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="contact" id="contact">
+    <div class="win reveal">
+      <div class="win-bar"><span class="win-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="win-title">Say hello</span><span class="win-meta">Email is best</span></div>
+      <div class="win-body">
+        <h2>Hiring for AI or product? Write to me.</h2>
+        <p class="contact-links">
+          <a class="pill pill-solid" href="mailto:asheriffarahat@gmail.com">asheriffarahat@gmail.com</a>
+          <a class="pill" href="https://github.com/ahmedshxrif" rel="noopener">GitHub</a>
+          <a class="pill" href="assets/Ahmed-Farahat-CV.pdf" download>Download CV</a>
+        </p>
+      </div>
+    </div>
+    <p class="fine">Ahmed Farahat. Based in Dubai.</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Screenshot">
+    <button class="dialog-close" type="button" id="lightbox-close">Close</button>
+    <img id="lightbox-img" alt="">
+    <p id="lightbox-cap"></p>
+    <div class="lightbox-nav">
+      <button type="button" id="lightbox-prev">Previous</button>
+      <button type="button" id="lightbox-next">Next</button>
+    </div>
+  </dialog>
+
+  <script src="main.js?v=4"></script>
+  <script src="phone.js?v=4"></script>
+</body>
+</html>
